@@ -1,0 +1,14 @@
+# ninja log v5
+8	216	7241841802692503	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+1	220	7241841802712507	CMakeFiles/Vibric_Data_Converter.dir/vibric/vibric.c.obj	c6130b74fb7623ea
+220	470	7241841805103035	Vibric_Data_Converter.exe	d44c1da22c81a60f
+3	125	7241842490444582	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+126	264	7241842491784860	Vibric_Data_Converter.exe	d44c1da22c81a60f
+3	212	7242069136749870	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+213	464	7242069139234959	Vibric_Data_Converter.exe	d44c1da22c81a60f
+2	88	7242070203690601	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+88	180	7242070204580802	Vibric_Data_Converter.exe	d44c1da22c81a60f
+3	95	7242074190129318	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+95	191	7242074191069495	Vibric_Data_Converter.exe	d44c1da22c81a60f
+2	84	7242075000567862	CMakeFiles/Vibric_Data_Converter.dir/main.c.obj	534f718c747b11d8
+84	171	7242075001408191	Vibric_Data_Converter.exe	d44c1da22c81a60f

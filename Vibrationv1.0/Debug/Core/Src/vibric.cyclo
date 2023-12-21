@@ -1,0 +1,2 @@
+../Core/Src/vibric.c:10:15:initialize_vibric_header	1
+../Core/Src/vibric.c:38:15:get_vibric_file_header	1

@@ -1,0 +1,3 @@
+C:/Work/7 semester/Diplom/Vibric_Data_Converter/cmake-build-debug/CMakeFiles/Vibric_Data_Converter.dir
+C:/Work/7 semester/Diplom/Vibric_Data_Converter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Work/7 semester/Diplom/Vibric_Data_Converter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
