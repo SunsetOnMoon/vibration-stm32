@@ -1,6 +1,6 @@
 ../Core/Src/main.c:85:5:bufsize	2
 ../Core/Src/main.c:92:5:fileSize	1
-../Core/Src/main.c:97:6:writeDataFromADCToFile	1
+../Core/Src/main.c:97:6:writeDataFromADCToFile	2
 ../Core/Src/main.c:126:6:HAL_ADC_ConvHalfCpltCallback	3
 ../Core/Src/main.c:133:6:HAL_ADC_ConvCpltCallback	3
 ../Core/Src/main.c:143:6:HAL_GPIO_EXTI_Callback	3

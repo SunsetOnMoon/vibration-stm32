@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.terminal.TerminalFragment"
+    android:orientation="vertical"
+    android:background="@color/terminal"
+    android:layout_marginBottom="?attr/actionBarSize">
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        tools:text="NUCLEO-F103RB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/terminal_title"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/terminal_tint"/>
+
+    <TextView
+        android:id="@+id/receive_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:freezesText="true"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        tools:text="Connecting to STM32..."
+        android:textColor="@color/terminal_text"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/receive_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/read"
+        android:backgroundTint="@color/terminal_tint"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/terminal_tint"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/send_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text|textNoSuggestions"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:backgroundTint="@color/terminal_edit"/>
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/terminal_edit"
+            android:backgroundTint="@color/terminal_tint"
+            app:srcCompat="@drawable/ic_send"/>
+    </LinearLayout>
+
+</LinearLayout>

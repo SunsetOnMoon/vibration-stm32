@@ -1,7 +1,7 @@
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-7\#ChannelRegularConversion=ADC_CHANNEL_0
 ADC1.ExternalTrigConv=ADC_EXTERNALTRIGCONV_T4_CC4
-ADC1.IPParameters=Rank-7\#ChannelRegularConversion,master,Channel-7\#ChannelRegularConversion,SamplingTime-7\#ChannelRegularConversion,NbrOfConversionFlag,ExternalTrigConv
+ADC1.IPParameters=Rank-7\#ChannelRegularConversion,Channel-7\#ChannelRegularConversion,SamplingTime-7\#ChannelRegularConversion,NbrOfConversionFlag,ExternalTrigConv,master
 ADC1.NbrOfConversionFlag=1
 ADC1.Rank-7\#ChannelRegularConversion=1
 ADC1.SamplingTime-7\#ChannelRegularConversion=ADC_SAMPLETIME_1CYCLE_5
@@ -187,8 +187,8 @@ SPI2.VirtualType=VM_MASTER
 TIM4.Channel-Output\ Compare4\ No\ Output=TIM_CHANNEL_4
 TIM4.IPParameters=Channel-Output Compare4 No Output,Prescaler,Period,OCMode_4
 TIM4.OCMode_4=TIM_OCMODE_TOGGLE
-TIM4.Period=79
-TIM4.Prescaler=31
+TIM4.Period=399
+TIM4.Prescaler=159
 VP_FATFS_VS_Generic.Mode=User_defined
 VP_FATFS_VS_Generic.Signal=FATFS_VS_Generic
 VP_SYS_VS_Systick.Mode=SysTick

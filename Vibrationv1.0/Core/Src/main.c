@@ -37,7 +37,7 @@
 /* USER CODE BEGIN PD */
 #define ADC_BUFFER_SIZE 1024//512//256
 #define BUFFER_SIZE ADC_BUFFER_SIZE// * 2
-#define VIBRIC_DATA_SIZE 8192
+#define VIBRIC_DATA_SIZE 65536//8192
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -378,9 +378,9 @@ static void MX_TIM4_Init(void)
 
   /* USER CODE END TIM4_Init 1 */
   htim4.Instance = TIM4;
-  htim4.Init.Prescaler = 31;
+  htim4.Init.Prescaler = 159;
   htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim4.Init.Period = 79;
+  htim4.Init.Period = 399;
   htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_OC_Init(&htim4) != HAL_OK)
