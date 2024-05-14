@@ -117,13 +117,12 @@ class ConfigurationFragment : Fragment(), SerialInputOutputManager.Listener {
             if (binding.teFreq.text.isNotEmpty() && sampleSize != 0) {
                 val deltaF = binding.teFreq.text.toString().toFloat() //TODO сделай через try catch
                 if (deltaF < 0.5) {
-                    Toast.makeText(requireContext(), "Частоное разрешение должно быть больше 0.5 Гц", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), "Частотное разрешение должно быть больше 0.5 Гц", Toast.LENGTH_SHORT).show()
                 }
                 val analyseTime = 1 / deltaF;
                 val freq: Int = (sampleSize / analyseTime).toInt()
                 if (freq in 1000..25000) {
-                    val counter = getFrequency(freq = freq)
-                    val command = String.format("(SAMP,1,%012d)", counter)
+                    val command = String.format("(SAMP,1,%012d)", freq)
                     send(command)
                 } else {
                     Toast.makeText(requireContext(), "Частота должна быть от 1 кГц до 25 кГц", Toast.LENGTH_SHORT).show()

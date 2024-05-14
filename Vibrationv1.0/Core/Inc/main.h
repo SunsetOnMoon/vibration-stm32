@@ -57,9 +57,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define BTN_Pin GPIO_PIN_13
-#define BTN_GPIO_Port GPIOC
-#define BTN_EXTI_IRQn EXTI15_10_IRQn
+#define BTN_STOP_Pin GPIO_PIN_13
+#define BTN_STOP_GPIO_Port GPIOC
+#define BTN_STOP_EXTI_IRQn EXTI15_10_IRQn
+#define BTN_START_Pin GPIO_PIN_2
+#define BTN_START_GPIO_Port GPIOC
 #define SD_CS_Pin GPIO_PIN_12
 #define SD_CS_GPIO_Port GPIOB
 #define TMS_Pin GPIO_PIN_13
@@ -68,8 +70,10 @@ void Error_Handler(void);
 #define TCK_GPIO_Port GPIOA
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
-#define LED_Pin GPIO_PIN_7
-#define LED_GPIO_Port GPIOB
+#define LED_GREEN_Pin GPIO_PIN_4
+#define LED_GREEN_GPIO_Port GPIOB
+#define LED_RED_Pin GPIO_PIN_5
+#define LED_RED_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 #define SD_SPI_HANDLE hspi2

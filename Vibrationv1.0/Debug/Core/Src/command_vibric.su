@@ -1,0 +1,5 @@
+../Core/Src/command_vibric.c:13:7:Vibric_ParseCommandName	24	static
+../Core/Src/command_vibric.c:24:5:Vibric_ParseCommandCode	24	static
+../Core/Src/command_vibric.c:31:7:Vibric_ParseCommandData	24	static
+../Core/Src/command_vibric.c:41:5:Vibric_ConvertCommandDataToInt	24	static
+../Core/Src/command_vibric.c:49:23:Vibric_ParseCommand	40	static
